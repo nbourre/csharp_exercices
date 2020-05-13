@@ -5,8 +5,38 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wpf_guess"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Devine le chiffre" Height="200" Width="350">
+    <Window.Resources>
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="3"/>
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="Margin" Value="3"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="3"/>
+        </Style>
+    </Window.Resources>
     <Grid>
+        <StackPanel>
+            <Button Content="Recommencer" Click="Restart_Click"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="Indiquer votre chiffre : "/>
+                <TextBox x:Name="txtNumber" Grid.Column="1" Text=""/>
 
+            </Grid>
+            <Button Content="Valider" Click="Validate_Click"/>
+            <TextBlock Text="Résultat : "/>
+            <TextBox x:Name="txtMessage" />
+        </StackPanel>
     </Grid>
 </Window>
