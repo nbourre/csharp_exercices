@@ -18,6 +18,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "add_numbers", "add_numbers\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "convert_loop", "convert_loop\convert_loop.csproj", "{7B0873F0-0486-4701-BF47-F41DDAA1851E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data_structure", "data_structure", "{DB3D2E97-7E55-4CAF-B44C-71A9F3472081}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "oop", "oop", "{81F647C5-2FC0-4D2A-B83E-1814F4CE22E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
