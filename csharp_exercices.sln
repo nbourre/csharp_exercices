@@ -7,9 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wpf_guess", "wpf_guess\wpf_
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wpf", "wpf", "{F389E0C0-2999-4FB4-82A1-CB446A5DE5BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "convert_loop", "convert_loop\convert_loop.csproj", "{0F77D1C9-0109-48B1-A62B-39EC749997F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "convert_loop", "convert_loop\convert_loop.csproj", "{0F77D1C9-0109-48B1-A62B-39EC749997F7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "base", "base", "{52029652-C594-49D1-A7A9-37C0E944BF5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{90E8FD5E-438D-45E1-9614-F57E0ECCB8E2}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
